@@ -56,7 +56,7 @@ const index = () => {
         <p>Summer Collection New Morden Design</p>
         <div class="pro-container">
           <div class="pro">
-            <img src="/f1.jpg" alt="" />
+            <Image height={100} width={100} src="/f1.jpg" alt="" />
             <div class="des">
               <span>adidas</span>
               <h5>Cartoon Astronaut T-Shirts</h5>
@@ -73,7 +73,7 @@ const index = () => {
           </div>
 
           <div class="pro">
-            <img src="/f2.jpg" alt="" />
+            <Image height={100} width={100} src="/f2.jpg" alt="" />
             <div class="des">
               <span>adidas</span>
               <h5>Cartoon Astronaut T-Shirts</h5>
@@ -90,7 +90,7 @@ const index = () => {
           </div>
 
           <div class="pro">
-            <img src="/f3.jpg" alt="" />
+            <Image height={100} width={100} src="/f3.jpg" alt="" />
             <div class="des">
               <span>adidas</span>
               <h5>Cartoon Astronaut T-Shirts</h5>
@@ -107,7 +107,7 @@ const index = () => {
           </div>
 
           <div class="pro">
-            <img src="/f4.jpg" alt="" />
+            <Image height={100} width={100} src="/f4.jpg" alt="" />
             <div class="des">
               <span>adidas</span>
               <h5>Cartoon Astronaut T-Shirts</h5>
@@ -124,7 +124,7 @@ const index = () => {
           </div>
 
           <div class="pro">
-            <img src="/f5.jpg" alt="" />
+            <Image height={100} width={100} src="/f5.jpg" alt="" />
             <div class="des">
               <span>adidas</span>
               <h5>Cartoon Astronaut T-Shirts</h5>
@@ -141,7 +141,7 @@ const index = () => {
           </div>
 
           <div class="pro">
-            <img src="/f6.jpg" alt="" />
+            <Image height={100} width={100} src="/f6.jpg" alt="" />
             <div class="des">
               <span>adidas</span>
               <h5>Cartoon Astronaut T-Shirts</h5>
@@ -158,7 +158,7 @@ const index = () => {
           </div>
 
           <div class="pro">
-            <img src="/f7.jpg" alt="" />
+            <Image height={100} width={100} src="/f7.jpg" alt="" />
             <div class="des">
               <span>adidas</span>
               <h5>Cartoon Astronaut T-Shirts</h5>
@@ -175,7 +175,7 @@ const index = () => {
           </div>
 
           <div class="pro">
-            <img src="/f8.jpg" alt="" />
+            <Image height={100} width={100} src="/f8.jpg" alt="" />
             <div class="des">
               <span>adidas</span>
               <h5>Cartoon Astronaut T-Shirts</h5>
@@ -204,7 +204,7 @@ const index = () => {
         <p>Summer Collection New Morden Design</p>
         <div class="pro-container">
           <div class="pro">
-            <img src="/n1.jpg" alt="" />
+            <Image height={100} width={100} src="/n1.jpg" alt="" />
             <div class="des">
               <span>adidas</span>
               <h5>Cartoon Astronaut T-Shirts</h5>
@@ -221,7 +221,7 @@ const index = () => {
           </div>
 
           <div class="pro">
-            <img src="/n2.jpg" alt="" />
+            <Image height={100} width={100} src="/n2.jpg" alt="" />
             <div class="des">
               <span>adidas</span>
               <h5>Cartoon Astronaut T-Shirts</h5>
@@ -238,7 +238,7 @@ const index = () => {
           </div>
 
           <div class="pro">
-            <img src="/n3.jpg" alt="" />
+            <Image height={100} width={100} src="/n3.jpg" alt="" />
             <div class="des">
               <span>adidas</span>
               <h5>Cartoon Astronaut T-Shirts</h5>
@@ -255,7 +255,7 @@ const index = () => {
           </div>
 
           <div class="pro">
-            <img src="/n4.jpg" alt="" />
+            <Image height={100} width={100} src="/n4.jpg" alt="" />
             <div class="des">
               <span>adidas</span>
               <h5>Cartoon Astronaut T-Shirts</h5>
@@ -272,7 +272,7 @@ const index = () => {
           </div>
 
           <div class="pro">
-            <img src="/n5.jpg" alt="" />
+            <Image height={100} width={100} src="/n5.jpg" alt="" />
             <div class="des">
               <span>adidas</span>
               <h5>Cartoon Astronaut T-Shirts</h5>
@@ -289,7 +289,7 @@ const index = () => {
           </div>
 
           <div class="pro">
-            <img src="/n6.jpg" alt="" />
+            <Image height={100} width={100} src="/n6.jpg" alt="" />
             <div class="des">
               <span>adidas</span>
               <h5>Cartoon Astronaut T-Shirts</h5>
@@ -306,7 +306,7 @@ const index = () => {
           </div>
 
           <div class="pro">
-            <img src="/n7.jpg" alt="" />
+            <Image height={100} width={100} src="/n7.jpg" alt="" />
             <div class="des">
               <span>adidas</span>
               <h5>Cartoon Astronaut T-Shirts</h5>
@@ -323,7 +323,7 @@ const index = () => {
           </div>
 
           <div class="pro">
-            <img src="/n8.jpg" alt="" />
+            <Image height={100} width={100} src="/n8.jpg" alt="" />
             <div class="des">
               <span>adidas</span>
               <h5>Cartoon Astronaut T-Shirts</h5>
