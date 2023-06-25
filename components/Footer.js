@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <footer>
       <div class="col">
-        <Image height={100} width={100} class="logo" src="Image height={100} width={100}/logo.png" alt=""/>
+        <Image class="logo" height={100} width={100} src="/logo.png" alt=""/>
         <h4>Contact</h4>
         <p><strong>Address: </strong>562 Wellington Road, Street 32, San Francisco </p>
         <p><strong>Phone: </strong> +01 2222 365 / (+91) 01 2345 6789 </p>
@@ -44,11 +44,11 @@ const Footer = () => {
         <h4>Install App</h4>
         <p>From App Stor or Google Play Store</p>
           <div class="row">
-            <Image height={100} width={100} src="/app.jpg" alt=""/>
-            <Image height={100} width={100} src="/play.jpg" alt=""/>
+            <Image src="/app.jpg" height={100} width={100} alt=""/>
+            <Image src="/play.jpg" height={100} width={100} alt=""/>
           </div>
             <p>Secure Payment Gateway</p>
-            <Image height={100} width={100} src="/pay.png" alt=""/>
+            <Image src="/pay.png" height={100} width={100} alt=""/>
       </div>
 
       <div class="copyright">
