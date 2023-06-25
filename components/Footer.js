@@ -1,10 +1,11 @@
 import React from 'react'
+import Image from 'next/image'
 
 const Footer = () => {
   return (
     <footer>
       <div class="col">
-        <img class="logo" src="img/logo.png" alt=""/>
+        <Image height={100} width={100} class="logo" src="Image height={100} width={100}/logo.png" alt=""/>
         <h4>Contact</h4>
         <p><strong>Address: </strong>562 Wellington Road, Street 32, San Francisco </p>
         <p><strong>Phone: </strong> +01 2222 365 / (+91) 01 2345 6789 </p>
@@ -43,11 +44,11 @@ const Footer = () => {
         <h4>Install App</h4>
         <p>From App Stor or Google Play Store</p>
           <div class="row">
-            <img src="/app.jpg" alt=""/>
-            <img src="/play.jpg" alt=""/>
+            <Image height={100} width={100} src="/app.jpg" alt=""/>
+            <Image height={100} width={100} src="/play.jpg" alt=""/>
           </div>
             <p>Secure Payment Gateway</p>
-            <img src="/pay.png" alt=""/>
+            <Image height={100} width={100} src="/pay.png" alt=""/>
       </div>
 
       <div class="copyright">
