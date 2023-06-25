@@ -1,118 +1,393 @@
 import Image from 'next/image'
-import { Inter } from 'next/font/google'
+import React from 'react'
+// import 'font-awesome/css/font-awesome.min.css';
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+// import { cart-shopping } from '@fortawesome/fontawesome-free-solid'
+// // import { FaShoppingCart } from "react-icons/fa";
+// // import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+// // import { faFaceRelieved } from '@fortawesome/pro-solid-svg-icons'
 
-const inter = Inter({ subsets: ['latin'] })
 
-export default function Home() {
+const index = () => {
   return (
-    <main
-      className={`flex min-h-screen flex-col items-center justify-between p-24 ${inter.className}`}
-    >
-      <div className="z-10 w-full max-w-5xl items-center justify-between font-mono text-sm lg:flex">
-        <p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
-          Get started by editing&nbsp;
-          <code className="font-mono font-bold">pages/index.js</code>
-        </p>
-        <div className="fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:h-auto lg:w-auto lg:bg-none">
-          <a
-            className="pointer-events-none flex place-items-center gap-2 p-8 lg:pointer-events-auto lg:p-0"
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{' '}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className="dark:invert"
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
+    <div>
+      <section id="hero">
+        <h4>Trade-in-offer</h4>
+        <h2>Super value deals</h2>
+        <h1>On all Products</h1>
+        <p>Save more with cupons with 75% off</p>
+        <button>Shop Now</button>
+      </section>
+
+      <section id="feature" class="section-p1">
+        <div class="fe-box">
+          <Image src="/f1.png" width={100} height={100} alt="" />
+          <h6>Free Shipping</h6>
         </div>
-      </div>
 
-      <div className="relative flex place-items-center before:absolute before:h-[300px] before:w-[480px] before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial before:from-white before:to-transparent before:blur-2xl before:content-[''] after:absolute after:-z-20 after:h-[180px] after:w-[240px] after:translate-x-1/3 after:bg-gradient-conic after:from-sky-200 after:via-blue-200 after:blur-2xl after:content-[''] before:dark:bg-gradient-to-br before:dark:from-transparent before:dark:to-blue-700/10 after:dark:from-sky-900 after:dark:via-[#0141ff]/40 before:lg:h-[360px]">
-        <Image
-          className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
-      </div>
+        <div class="fe-box">
+          <Image src="/f2.png" width={100} height={100} alt="" />
+          <h6>Online Order</h6>
+        </div>
 
-      <div className="mb-32 grid text-center lg:mb-0 lg:grid-cols-4 lg:text-left">
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=default-template-tw&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Docs{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Find in-depth information about Next.js features and API.
-          </p>
-        </a>
+        <div class="fe-box">
+          <Image src="/f3.png" width={100} height={100} alt="" />
+          <h6>Save Money</h6>
+        </div>
 
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=default-template-tw&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Learn{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Learn about Next.js in an interactive course with&nbsp;quizzes!
-          </p>
-        </a>
+        <div class="fe-box">
+          <Image src="/f4.png" width={100} height={100} alt="" />
+          <h6>Promotions</h6>
+        </div>
 
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=default-template-tw&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Templates{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Discover and deploy boilerplate example Next.js&nbsp;projects.
-          </p>
-        </a>
+        <div class="fe-box">
+          <Image src="/f5.png" width={100} height={100} alt="" />
+          <h6>Happy Sell</h6>
+        </div>
 
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template-tw&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Deploy{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
-      </div>
-    </main>
+        <div class="fe-box">
+          <Image src="/f6.png" width={100} height={100} alt="" />
+          <h6>24/7 Support</h6>
+        </div>
+      </section>
+
+      <section id="product1" class="section-p1">
+        <h2>Featured Products</h2>
+        <p>Summer Collection New Morden Design</p>
+        <div class="pro-container">
+          <div class="pro">
+            <img src="/f1.jpg" alt="" />
+            <div class="des">
+              <span>adidas</span>
+              <h5>Cartoon Astronaut T-Shirts</h5>
+              <div class="star">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <h4>$74</h4>
+            </div>
+            <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+          </div>
+
+          <div class="pro">
+            <img src="/f2.jpg" alt="" />
+            <div class="des">
+              <span>adidas</span>
+              <h5>Cartoon Astronaut T-Shirts</h5>
+              <div class="star">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <h4>$74</h4>
+            </div>
+            <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+          </div>
+
+          <div class="pro">
+            <img src="/f3.jpg" alt="" />
+            <div class="des">
+              <span>adidas</span>
+              <h5>Cartoon Astronaut T-Shirts</h5>
+              <div class="star">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <h4>$74</h4>
+            </div>
+            <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+          </div>
+
+          <div class="pro">
+            <img src="/f4.jpg" alt="" />
+            <div class="des">
+              <span>adidas</span>
+              <h5>Cartoon Astronaut T-Shirts</h5>
+              <div class="star">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <h4>$74</h4>
+            </div>
+            <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+          </div>
+
+          <div class="pro">
+            <img src="/f5.jpg" alt="" />
+            <div class="des">
+              <span>adidas</span>
+              <h5>Cartoon Astronaut T-Shirts</h5>
+              <div class="star">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <h4>$74</h4>
+            </div>
+            <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+          </div>
+
+          <div class="pro">
+            <img src="/f6.jpg" alt="" />
+            <div class="des">
+              <span>adidas</span>
+              <h5>Cartoon Astronaut T-Shirts</h5>
+              <div class="star">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <h4>$74</h4>
+            </div>
+            <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+          </div>
+
+          <div class="pro">
+            <img src="/f7.jpg" alt="" />
+            <div class="des">
+              <span>adidas</span>
+              <h5>Cartoon Astronaut T-Shirts</h5>
+              <div class="star">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <h4>$74</h4>
+            </div>
+            <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+          </div>
+
+          <div class="pro">
+            <img src="/f8.jpg" alt="" />
+            <div class="des">
+              <span>adidas</span>
+              <h5>Cartoon Astronaut T-Shirts</h5>
+              <div class="star">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <h4>$74</h4>
+            </div>
+            <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+          </div>
+        </div>
+      </section>
+
+      <section id="banner" class="section-m1">
+        <h4>Repair Services </h4>
+        <h2>Up to <span>70% Off </span> - All t-shirts & Accessories </h2>
+        <button class="normal">Explore More</button>
+      </section>
+
+      <section id="product1" class="section-p1">
+        <h2>New Arrivals</h2>
+        <p>Summer Collection New Morden Design</p>
+        <div class="pro-container">
+          <div class="pro">
+            <img src="/n1.jpg" alt="" />
+            <div class="des">
+              <span>adidas</span>
+              <h5>Cartoon Astronaut T-Shirts</h5>
+              <div class="star">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <h4>$74</h4>
+            </div>
+            <a href="#"><i class="fa-solid fa-cart-shopping cart "></i></a>
+          </div>
+
+          <div class="pro">
+            <img src="/n2.jpg" alt="" />
+            <div class="des">
+              <span>adidas</span>
+              <h5>Cartoon Astronaut T-Shirts</h5>
+              <div class="star">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <h4>$74</h4>
+            </div>
+            <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+          </div>
+
+          <div class="pro">
+            <img src="/n3.jpg" alt="" />
+            <div class="des">
+              <span>adidas</span>
+              <h5>Cartoon Astronaut T-Shirts</h5>
+              <div class="star">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <h4>$74</h4>
+            </div>
+            <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+          </div>
+
+          <div class="pro">
+            <img src="/n4.jpg" alt="" />
+            <div class="des">
+              <span>adidas</span>
+              <h5>Cartoon Astronaut T-Shirts</h5>
+              <div class="star">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <h4>$74</h4>
+            </div>
+            <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+          </div>
+
+          <div class="pro">
+            <img src="/n5.jpg" alt="" />
+            <div class="des">
+              <span>adidas</span>
+              <h5>Cartoon Astronaut T-Shirts</h5>
+              <div class="star">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <h4>$74</h4>
+            </div>
+            <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+          </div>
+
+          <div class="pro">
+            <img src="/n6.jpg" alt="" />
+            <div class="des">
+              <span>adidas</span>
+              <h5>Cartoon Astronaut T-Shirts</h5>
+              <div class="star">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <h4>$74</h4>
+            </div>
+            <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+          </div>
+
+          <div class="pro">
+            <img src="/n7.jpg" alt="" />
+            <div class="des">
+              <span>adidas</span>
+              <h5>Cartoon Astronaut T-Shirts</h5>
+              <div class="star">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <h4>$74</h4>
+            </div>
+            <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+          </div>
+
+          <div class="pro">
+            <img src="/n8.jpg" alt="" />
+            <div class="des">
+              <span>adidas</span>
+              <h5>Cartoon Astronaut T-Shirts</h5>
+              <div class="star">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <h4>$74</h4>
+            </div>
+            <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+          </div>
+        </div>
+      </section>
+
+      <section id="sm-banner" class="section-p1">
+        <div class="banner-box">
+            <h4>Crazy Deals</h4>
+            <h2>buy 1 get 1 free</h2>
+            <span>The best class dress is on sale at Cara</span>
+            <button class="white">Learn More</button>
+        </div>
+
+        <div class="banner-box banner-box2">
+            <h4>Spring/Summer</h4>
+            <h2>upcomeing season </h2>
+            <span>The best class dress is on sale at Cara</span>
+            <button class="white">Collection</button>
+        </div>
+    </section>
+
+    <section id="banner3">
+        <div class="banner-box">
+            <h2>SEASONAL SALE</h2>
+            <h3>Winter Collection - 50% OFF</h3>
+        </div>
+
+        <div class="banner-box banner-box2">
+            <h2>NEW FOOTWEAR COLLECTION</h2>
+            <h3>Spring / Summer Collection 2022</h3>
+        </div>
+
+        <div class="banner-box banner-box3">
+            <h2>T-SHIRTS</h2>
+            <h3>New Trendy Prints</h3>
+        </div>
+    </section>
+
+    <section id="newsletter" class="section-p1 section-m1">
+        <div class="newstext">
+            <h4>Singup For Newsletters</h4>
+            <p>Get E-mail Updates about our latest shop and <span>special offer.</span></p>
+        </div>
+
+        <div class="form">
+            <input type="text" name="" id="" placeholder="Enter your e-maill adress"/>
+            <button class="normal" type="submit">Singup</button>
+        </div>
+    </section>
+
+    </div>
   )
 }
+
+export default index
